@@ -97,7 +97,7 @@ section button:hover {
     gap: 1rem;
     margin-top: 1.5rem;
     padding: 0 1rem;
-    height: 35rem;
+    /* height: 32rem; */
     border-radius: 0.6rem;
 }
 
@@ -105,7 +105,7 @@ section button:hover {
 .resultados-pesquisa::-webkit-scrollbar {
     background-color: #00994D;
     opacity: 0;
-    width: .5rem;
+    width: 1rem;
     border-radius: 1rem;
 }
 
@@ -161,27 +161,29 @@ footer {
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2rem; /* Tamanho da fonte em telas menores */
-        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    .container {
+        width: 90%;
+        padding: 0 1rem;
     }
 
-    section input {
-        max-width: 25rem; /* Largura dos inputs em telas menores */
-        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    .search-bar {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .search-bar input,
+    .search-bar button {
+        width: 100%;
+        padding: 1rem 0;
     }
 
     .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
-        height: 40vh; /* Altura da caixa de resultados em telas menores */
-    }
-
-    .item-resultado h2 {
-        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+        padding: 1rem;
     }
 }
 
 /* Responsividade para celulares */
 @media (max-width: 480px) {
-
+    
 }
