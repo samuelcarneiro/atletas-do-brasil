@@ -16,10 +16,14 @@
     </header>
 
     <main>
-        <section>
-            <input type="text" name="busca" id="busca" placeholder="Digite o nome do atleta"/>
-            <button>Pesquisar</button>
-        </section>
+        <div class="container">
+            <section>
+                <input type="text" name="busca" id="busca" placeholder="Digite o nome do atleta"/>
+                <button onclick="pesquisar()">Pesquisar</button>
+            </section>
+
+            <div id="resultados-pesquisa" class="resultados-pesquisa"></div>
+        </div>
     </main>
 
     <footer>
