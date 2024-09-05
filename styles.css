@@ -97,7 +97,7 @@ section button:hover {
     gap: 1rem;
     margin-top: 1.5rem;
     padding: 0 1rem;
-    /* height: 32rem; */
+    height: 32rem;
     border-radius: 0.6rem;
 }
 
